@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 1rem;
     margin: 2rem;
 }
@@ -107,11 +108,11 @@ header h2 {
 
 @media screen and (max-width: 700px) {
     header h2 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .container {
-        max-width: 400px;
-        padding: 1.5rem 2rem;
+        max-width: 450px;
+        padding: 1.5rem 0.8rem;
     }
 
     .container .el p {
@@ -120,6 +121,28 @@ header h2 {
 
     .container .el span {
         font-size: 0.8rem;
+    }
+    
+    .end {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header h2 {
+        font-size: 1.5rem;
+    }
+    .container {
+        max-width: 430px;
+        padding: 1.5rem 0.8rem;
+    }
+
+    .container .el p {
+        font-size: 1.8rem;
+    }
+
+    .container .el span {
+        font-size: 0.6rem;
     }
     
     .end {
