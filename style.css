@@ -127,3 +127,25 @@ header h2 {
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 600px) {
+    header h2 {
+        font-size: 1.5rem;
+    }
+    .container {
+        max-width: 430px;
+        padding: 1.5rem 0.8rem;
+    }
+
+    .container .el p {
+        font-size: 1.8rem;
+    }
+
+    .container .el span {
+        font-size: 0.6rem;
+    }
+    
+    .end {
+        font-size: 2rem;
+    }
+}
