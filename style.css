@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 1rem;
     margin: 2rem;
 }
@@ -107,11 +108,11 @@ header h2 {
 
 @media screen and (max-width: 700px) {
     header h2 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .container {
-        max-width: 400px;
-        padding: 1.5rem 2rem;
+        max-width: 450px;
+        padding: 1.5rem 0.8rem;
     }
 
     .container .el p {
