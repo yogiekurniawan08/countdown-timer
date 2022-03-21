@@ -13,7 +13,7 @@ const minText = document.getElementById('min-text')
 const secondText = document.getElementById('second-text')
 
 // set here
-const newSingleYear = '2023';
+const newSingleYear = '2022';
 const newYear = `1 Jan ${newSingleYear}`;
 
 header.innerHTML = `<h2>New Year's Eve ${newSingleYear}</h2>`
